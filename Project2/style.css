@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 94px;
+    box-shadow: 0px 0px 15px;
+    padding-left: 137px;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    background-color: #FFFFFF;
+}
+.header1{
+    color: #424242;
+    font-family: popins,sans-serif;
+    font-size: 49px;
+    font-weight: bold;
+    
+}
+.header2{
+    color: #00A5EC;
+    font-family:Popins,sans-serif;
+    font-size: 49px;
+    font-weight: bold;
+    padding-left: 5px;
+    
+}
+.middle{
+    display: flex;
+    padding-top: 25px;
+    justify-content: flex-end;
+    width: auto;
+    
+
+}
+.circle{
+    
+    height: 50px;
+    width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50% ;
+   background-color: #00A5EC;
+   
+}
+.circle1{
+    height: 50px;
+    width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50% ;
+   background-color: #424242;
+   
+
+}
+
+.plusicon{
+    
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.plusicon1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.item{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 25px;
+}
+.item1{
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-right: 25px;
+}
+.item2{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 25px;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    font-size: 30px;
+    font-weight: bold;
+    color: #424242;
+}
+.content1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #424242;
+}
+.main{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 139px;
+    
+    height: auto;
+    gap: 100px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.main1{
+    padding-top: 40px;
+    padding-left: 500px;
+}
+.box{
+    height: 360px; ;
+    width: 352px;
+    border:solid 1px #EDEDED;
+    
+}
+.box1{
+    height: 360px; ;
+    width: 500px;
+    border:solid 1px #EDEDED;
+    
+}
+.box:hover{
+    box-shadow: 0 0 5px gray;
+}
+.box1:hover{
+    box-shadow: 0 0 5px gray;
+}
+
+.boxhead{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 34px;
+    padding-bottom: 30px;
+    padding-left: 34px;
+    color: #00A5EC;
+
+}
+
+.checked{
+    text-decoration: line-through;
+    color: #C2C2C2;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+.unchecked{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+hr{
+    height: -1px;
+    color: #C2C2C2;
+}
+a{
+    color: #00A5EC;
+}
+.parent{
+    filter: blur(2px);
+    
+    height: 100%;
+    
+    
+    
+    
+}
+.centerbox{
+    height: 250px;
+    width: 500px;
+    border: 1px solid #EDEDED;
+    background-color:#FFFFFF;
+    
+    box-shadow: 0px 0px 5px #EDEDED;
+    border-radius: 10px;
+    
+    position: relative;
+    bottom: 650px; 
+    left: 33%;
+
+}
+.centerbox1{
+    height: 250px;
+    width: 500px;
+    border: 1px solid #EDEDED;
+    background-color:#FFFFFF;
+    
+    box-shadow: 0px 0px 5px #EDEDED;
+    border-radius: 10px;
+    
+    position: relative;
+    bottom: 300px; 
+    left: 33%;
+}
+.centerheader{
+    display: flex;
+    height: auto;
+}
+.centercontent{
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 20px;
+}
+.back{
+    padding-left: 300px;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+.backbutton{
+    color: #858585;
+}
+.boxinput{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.inputcontent{
+    padding-left: 14px;
+    background-color:#F7F7F7;
+        width: 460px;
+    height: 40px;
+    border: solid 1px #EDEDED;
+}
+button{
+    width: 180px;
+    height: 40px;
+    background-color: #00A5EC;
+    
+    position: relative;
+    left: 300px;
+    top: 60px;
+    border-radius: 4px;
+    border: none;
+}
+.button2{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.middlebox{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 500px;
+}
+
+.circleshift{
+    padding-left: 180px;
+}
+body{
+
+    background-color:#F7F7F7;
+    
+}
+hr{
+    font-size: 60px;
+}
+input[type=checkbox]{
+    height: 30px;
+    width: 30px;
+}
+label{
+    padding-left: 10px;
+}
+.hr1{
+    border: #EDEDED solid 1px;
+    width: 100%;
+    
+}
+
