@@ -367,7 +367,7 @@ button{
     display: none;
 }
 .middlebox{
-    
+    width: 100%;
     padding-left: 30px;
 }
 .main1{
@@ -383,7 +383,7 @@ button{
 height: 250px;
 width: 340px;
 position: relative;
-left: 20px;
+left: 15px;
 }
 }
 
