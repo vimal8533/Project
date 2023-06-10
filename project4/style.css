@@ -660,11 +660,11 @@ button:hover{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 500px;
+        height: 300px;
         width: 400px;
         border-radius: 10px;
         position: relative;
-        top: -400px;
+        top: -315px;
     }
     .alrtbox {
         
