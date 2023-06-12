@@ -63,13 +63,13 @@ if(greet==="Morning"){
 }
 let alert=document.getElementsByTagName("p")
 if(greet==="Morning"){
-    alert[0].innerHTML="GOOD MORNING!! WAKE UP !!"
+    
 }else if(greet==="afternoon"){
-    alert[0].innerHTML="GOOD AFTERNOON !! TAKE SOME SLEEP"
+   
 }else if(greet==="Evening"){
-    alert[0].innerHTML="GOOD EVENING !!"
+    
 }else if(greet==="night"){
-    alert[0].innerHTML="GOOD NIGHT !!"   
+   
 }
 let btn=document.getElementById("btn");
 let wakeup=document.getElementsByTagName("select");
@@ -98,17 +98,19 @@ let hours=newtime.getHours();
 if(parseInt(morningtime.value)===hours){
 // img1.style.backgroundImage="url(./Component\ 30\ –\ 1.svg)";
 img1.src='./Component 30 – 1.svg';
+    alert[0].innerHTML="GOOD MORNING!! WAKE UP !!"
 }
 else if(parseInt(lunchtime.value)===hours){
     // img1.style.backgroundImage="url('lunch_image@2x.png')";
     // console.log("where is my image");
     img1.src='./Component 31 – 1.svg';
+     alert[0].innerHTML="GOOD AFTERNOON !! TAKE SOME SLEEP"
     
     }
    else if(parseInt(naptime.value)===hours){
         // img1.style.backgroundImage="url('lunch_image@2x.png')";
        img1.src='./lunch_image.jpg';
-       
+       alert[0].innerHTML="GOOD EVENING !!"
         
         
         }
@@ -116,6 +118,7 @@ else if(parseInt(lunchtime.value)===hours){
             // img1.style.backgroundImage="url('lunch_image@2x.png')";
             // console.log("where is my image");
             img1.src='./Component 32 – 1.svg';
+            alert[0].innerHTML="GOOD NIGHT !!"   
             }
 }
 
