@@ -264,7 +264,7 @@ h3{
 }
 
 @media only screen and (min-width:250px)  and (max-width:600px){
-   h1{
+ h1{
     font-size: 35px;
    } 
    .circle {
@@ -286,7 +286,7 @@ h3{
 }
 .popup{
     height: 200px;
-    width: 350px;
+    width: 330px;
     top: 300px;
     left: 20px;
 }
@@ -294,15 +294,15 @@ h3{
     top: 299px;
     left: 20px;
     height: 200px;
-    width: 350px;
+    width: 330px;
 }
 button{
-    left: 80px;
+    left: 65px;
     top: 70px;
 }
 input {
     height: 30px;
-    width: 250px;
+    width: 220px;
     left: 60px;
     top: 55px;
 }
@@ -330,5 +330,7 @@ input {
     position: relative;
     left:40px;
     width: 82%;
+}.task{
+    font-size: 16px;
 }
 }
