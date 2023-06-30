@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styel.css">
+    <title>project5</title>
+</head>
+<body>
+     <div id="parent">
+        <header>
+            <div class="mainhead">
+                <div class="word1">Tasks</div>
+                <div class="word2">&nbsp;List</div>
+            </div>
+            <div class="openpopup">
+                <div class='add'></div>
+                <span class="add_item">&nbsp;&nbsp;Add Item</span>
+            </div>
+        </header>
+        <header style="display: none;" class="">
+            
+                <div class="add_item">Back</div>
+    
+            <div id="page2"></div>
+            <div class="openpopup">
+                <div class='add'></div>
+            </div>
+        </header>
+        <div class="todos2"></div>
+        <div id="todos">
+            <div id="NoItem">No Items in the todo list</div>
+        </div>
+    </div>
+    <div class="mainpopup">
+        <div id="popup1" class="popupstyle">
+            <div class="popupheading">Add New List</div>
+            <input type="text" placeholder="Add new List" id="boxheading">
+            <div>
+                <button class="buttonstyle" id="boxhead">Add</button>
+                <button class="buttonstyle" id="closepopup">Close</button>
+            </div>
+        </div>
+        <div id="subtaskid" class="popupstyle">
+            <div class="popupheading">Add New Task</div>
+            <input type="text" placeholder="Add new Task" id="taskname">
+            <div>
+                <button class="buttonstyle" id="forsubtask">Add</button>
+                <button class="buttonstyle" id="subclose">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

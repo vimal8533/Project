@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+#parent{
+    color: white;
+}
+.del{
+    background-image: url(./png-clipart-button-icon-delete-button-text-sign.png);
+    height: 35px;
+    width: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.add{
+    background-image: url(./WhatsApp\ Image\ 2023-06-21\ at\ 01.29.37.jpg);
+    height: 35px;
+    width: 35px;
+    /* position: relative;
+    left: 10px; */
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.openpopup{
+    display: flex;
+    cursor: pointer;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+.mainhead{
+    display: flex;
+}
+.word1{
+    font-size: 45px;
+    font-weight: bold;
+    color: rosybrown;
+}
+.word2{
+    font-size: 45px;
+}
+
+
+.PlusIcon{
+    color: dodgerblue;
+}
+.add_item{
+    font-size: 28px;
+}
+
+#NoItem{
+    font-size: 28px;
+}
+#page2{
+    font-weight: bold;
+    font-size: 42px;
+    margin-right: 10px auto;
+}
+
+
+#todos{
+    margin: 0px 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.todos2{
+    margin-left: 40em;
+}
+
+.mainpopup{
+    position: fixed;
+    top: 10em;
+    left: 35em;
+    display: none;
+    
+    text-align: center;
+    
+    border-radius: 5px; 
+    height: 40px;
+}
+
+
+.popupstyle{
+    width: 410px;
+    height: 210px;
+    
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    position: absolute;
+    font-size: 20px;
+}
+
+
+input{
+    text-align: center; 
+    border-radius: 5px; 
+    height: 40px;
+   
+}
+
+.buttonstyle{
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    border: 1px solid tomato;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: tomato;
+    
+}
+
+
+
+.newcardstyle{
+    font-size: 25px;
+    min-height: 350px;
+    width: 260px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    margin: 25px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.cardheadingnewbox{
+    color: orange;
+    margin: 15px;
+    cursor: pointer;
+}
+.contentbox{
+    min-height: 200px;
+    margin: 0px 20px;
+
+}
+
+.cardfoot{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin: 10px;
+}
+.New_Task{
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+
+
+
+
+.ToDoItem{
+    font-size: 20px;
+    color: black;
+}
+
+.TaskDone{
+    color: white;
+    font-size: 10px;
+    background-color: rgb(66, 116, 211);
+    border: 1px solid rgb(66, 116, 211);
+    border-radius: 10px;
+    padding: 5px;
+    vertical-align: 25%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+@media screen and (min-width : 280px) and (max-width:500px) {
+    header{
+        padding: 20px 10px;
+    }
+    .right {
+        font-size: 30px;
+    }
+    .left{
+        font-size: 30px;
+    }
+    .add_item{
+        font-size: 23px;
+    }
+    .mainpopup{
+        top: 10em;
+        left: 10vw;
+    }
+    .popupstyle{
+        width: 330px;
+        height: 180px;
+        padding: 20px;
+    }
+  
+    #todos{
+        margin: 30px 10px;  
+        flex-direction: column;
+        align-items: center;
+    }
+    #back{
+        font-size: 1.5em;
+        left: 50px;
+    }
+    #page2 {
+        font-size: 32px;
+        margin-right: 40px;
+        margin-top: 50px;
+    }
+    .todos2{
+        margin: 0px;
+    }
+    .newcardstyle{
+        width: 280px;
+        margin: 30px auto;
+    }
+}
